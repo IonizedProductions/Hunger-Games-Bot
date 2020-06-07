@@ -1,6 +1,7 @@
 const commando = require('discord.js-commando');
 const client = new commando.Client;
 const path = require('path');
+const fs = require('fs');
 const config = require("./config.json")
 client.on('ready', () => {
 

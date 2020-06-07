@@ -1,5 +1,5 @@
 const commando = require('discord.js-commando');
-
+const attacks = require("D:/Hunger Games Bot/Data/Attacks.json")
 const {
     Client,
     RichEmbed
@@ -16,6 +16,7 @@ class startgame extends commando.Command {
 
         }
         async run(message, args) {
+          message.channel.send(attacks.test);
 
         }
 }
