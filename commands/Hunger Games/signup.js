@@ -38,7 +38,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user10 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else if (fs.existsSync(p8)) {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user9.txt", user, {
@@ -48,7 +48,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user9 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else if (fs.existsSync(p7)) {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user8.txt", user, {
@@ -58,7 +58,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user8 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else if (fs.existsSync(p6)) {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user7.txt", user, {
@@ -68,7 +68,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user7 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else if (fs.existsSync(p5)) {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user6.txt", user, {
@@ -78,7 +78,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user6 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else if (fs.existsSync(p4)) {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user5.txt", user, {
@@ -88,7 +88,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user5 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else if (fs.existsSync(p3)) {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user4.txt", user, {
@@ -98,7 +98,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user4 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else if (fs.existsSync(p2)) {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user3.txt", user, {
@@ -108,7 +108,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user3 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else if (fs.existsSync(p1)) {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user2.txt", user, {
@@ -118,7 +118,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user2 saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         } else {
             fs.writeFile("D:/Hunger Games Bot/Data/SignupUsers/user.txt", user, {
@@ -128,7 +128,7 @@ class signup extends commando.Command {
                     throw err;
                 }
                 console.log("file user saved!");
-                message.reply(", Signup Complete!");
+                message.reply(" Signup Complete!");
             });
         }
     }
