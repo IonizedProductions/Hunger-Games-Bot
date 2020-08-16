@@ -14,6 +14,8 @@ const p10 = "D:/Hunger Games Bot/Data/SignupUsers/user10.txt"
 const a1 = "D:/Hunger Games Bot/Data/Attacks/a1.txt"
 const win = "D:/Hunger Games Bot/Data/wins/win.txt"
 const Lost = "D:/Hunger Games Bot/Data/lost/lost.txt"
+
+
 const {
     Client,
     RichEmbed
@@ -31,6 +33,7 @@ class startgame extends commando.Command {
 
     }
     async run(message, args) {
+message.channel.send('https://www.youtube.com/watch?v=WXYJgvO_Lq4');
 if (message.author.id = '169868696427167744'){
   message.channel.send("@everyone, the game has started");
         fs.readFile(p1, "utf-8", function(err, data) {
